@@ -11,68 +11,69 @@ body{
 	text-align: center;
 }
 
-.numblist{
-	display: inline-block;
-	padding:0;
-	margin-right: -8px;
-	width:150px;
-	height:30px;
-	font-size: 30px;
-	line-height: 30px;
-	text-align: center;
-	color:#000;
-	background: #fff;
-	margin-bottom: -5px;
-	
-}
-/*.numblist:first-of-type{
-	margin-left:100px; 
-}*/
-.numbliste{
-	margin-left:250px; 
-	display: inline-block;
-	padding:0;
-	margin-right: -8px;
-	width:150px;
-	height:30px;
-	font-size: 30px;
-	line-height: 30px;
-	text-align: center;
-	color:#000;
-	background: #fff;
-}
-.abclist{
-	margin-top: -6px;
-	margin-left: 220px;
-	width:30px;
-	padding: 0;
-	height:150px;
-	font-size: 30px;
-	line-height: 150px;
-	text-align: center;
-	color:#000;
-	background: #fff;
+.desk{
+	background:#666;
+	width :400px;
+	height:460px;
+	position: absolute;
+	top:400px;
+	left:400px;
+	display:flex;
+	flex-direction: row;
+	justify-content: center;
+	flex-wrap: wrap;
+	align-content: center;
 }
 .black{
-	/*display: inline-block;*/
-	width:150px;
-	height:150px;
-	background: #000;
-	margin-top: -6px;
-	margin-left: 250px;
-	
-}
-.black:first-of-type{
-	margin-left: 250px;
+	background:#000;
+	width: 50px;
+	height:50px;
 }
 .white{
-	/*display: inline-block;*/
-	width:150px;
-	height:150px;
-	background: #fff;
-	margin-top: -6px;
-	margin-left: 250px;
+	background:#fff;
+	width: 50px;
+	height:50px;
 }
-.white:first-of-type{
-	margin-left: 250px;
+.tabup{
+	height:30px;
+	width:50px;
+	background: #fff;
+	color: #000;
+	line-height: 30px;
+	font-size: 30px;
+	text-align: center;
+	transform: rotate(180deg);
+}
+.tabdown{
+	height:30px;
+	width:50px;
+	background: #fff;
+	color: #000;
+	line-height: 30px;
+	font-size: 30px;
+	text-align: center;
+}
+.colleft,.colright{
+	position: absolute;
+	top:400px;
+	width: 30px;
+	height: 460px;
+	background: #fff;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.colleft{
+		left:370px;
+}
+.colright{
+		left:800px;
+}
+.number{
+	height: 50px;
+	width: 30px;
+	line-height: 50px;
+	font-size: 30px;
+	color: #000;
+	text-align: center;
 }
