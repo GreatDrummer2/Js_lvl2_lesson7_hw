@@ -77,3 +77,12 @@ body{
 	color: #000;
 	text-align: center;
 }
+.number2{
+	height: 50px;
+	width: 30px;
+	line-height: 50px;
+	font-size: 30px;
+	color: #000;
+	text-align: center;
+	transform: rotate(180deg);
+}
